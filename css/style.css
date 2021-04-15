@@ -1,0 +1,35 @@
+/* .portofolio {
+  background-image: url("bg.png");
+  width: 373px;
+  height: 275px;
+}
+
+
+#portofolio {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 116px;
+    height: 29px;
+    left: 129px;
+    top: 36px;
+} */
+
+.about {
+    font-family: 'Libre Franklin', sans-serif;
+    width: 375px;
+    height: 335px;
+    text-align: center;
+}
+
+#h1-about {
+    padding: 25px 0px 19px 0px;
+    font-weight: 600;
+
+}
+#p-about {
+    text-align: justify;
+    padding: 0 29px 8px 34px;
+}
+
+
