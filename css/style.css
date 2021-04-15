@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+
+ @media all and (max-width: 400px){
+
+    .menu{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section{
+        flex-direction: column;
+    }
+    .aside{
+        display: flex;
+        justify-content: center;
+    }
+
+}
