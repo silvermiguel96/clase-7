@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+
+}
+
+footer{
+    width: 375px;
+    height: 360px;
+    background-color: #FFFAF2;
+    
+}
+
+.footer-title{
+    padding: 26px 0 25px 0;
+    width: 100%;
+
+}
+
+.footer-title p{
+    margin: 0 auto;
+    text-align: center ;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 24px;    
+    font-style: normal;
+    line-height: 29px;
+
+}
+
+/* .Footer{
+    width: 375px;
+    height: 360px;
+    padding: 0 42px 0 42px;
+}
+ 
+.Footer-title h1
+{
+    padding: 25px 0 26px 0;
+}
+
+.Footer-media{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-row-gap:19px
+} */
