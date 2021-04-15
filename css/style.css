@@ -21,5 +21,8 @@
         display: flex;
         justify-content: center;
     }
-
+    #puenteImg {
+        position: relative;
+        top: 44px;
+    }
 }
