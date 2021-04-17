@@ -1,3 +1,20 @@
+.about {
+    font-family: 'Libre Franklin', sans-serif;
+    width: 375px;
+    text-align: center;
+}
+
+#h1-about {
+    padding: 25px 0px 19px 0px;
+    font-weight: 600;
+
+}
+#p-about {
+    text-align: justify;
+    padding: 0 29px 18px 34px;
+    margin-bottom: 10px;
+}
+
 body{
     margin:0;
     padding:0;
@@ -71,23 +88,5 @@ footer img{
     height: 20px;
     top:278px;
     left: 319px;
-
-
 }
 
-/* .Footer{
-    width: 375px;
-    height: 360px;
-    padding: 0 42px 0 42px;
-}
- 
-.Footer-title h1
-{
-    padding: 25px 0 26px 0;
-}
-
-.Footer-media{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-row-gap:19px
-} */
