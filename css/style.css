@@ -4,7 +4,12 @@ body {
     box-sizing: border-box;
     font-family: "Libre Franklin", sans-serif;
   }
+@media screen and (min-width: 376px) and (max-width: 1440px) {
 
+
+}
+
+@media screen and (max-width:375px){
 p {
   font-style: normal;
   font-weight: normal;
@@ -189,3 +194,4 @@ footer {
     top: 278px;
     left: 319px;
   }
+}
