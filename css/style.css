@@ -4,7 +4,68 @@ body {
     box-sizing: border-box;
     font-family: "Libre Franklin", sans-serif;
   }
+
 @media screen and (min-width: 376px) and (max-width: 1440px) {
+
+  /* footer */
+  footer {
+    width:100%;
+    min-height: 528px;
+    background-color: #fffaf2;
+    position: relative;    
+  }
+
+  .footer-wrapper{
+    padding: 93px 347px 189px 165px;
+  }
+
+  .footer-title {
+    margin-bottom: 51px;    
+  }
+  
+  .footer-title p {
+    margin:0px;   
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  .footer-media {    
+    width: 760px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 19px;
+  }
+  
+  .footer-media a {
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  .footer-wrapper section{
+    width: 928px;    
+    display: flex;
+  }
+
+
+  .footer-contact {
+    font-weight: 400;
+    padding-left: 23px;
+    color: #333333;
+  }
+  
+  .footer-contact p{
+    margin:0 0 14px 0;
+  }
+  
+  footer img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 434px;
+    left: 1236px;
+  }
 
 
 }
