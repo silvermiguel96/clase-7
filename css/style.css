@@ -6,6 +6,16 @@ body {
   }
 
 @media screen and (min-width: 376px) and (max-width: 1440px) {
+  .about {
+     text-align: justify;
+     padding-left: 166px;
+     padding-right: 167px;
+     padding-bottom: 115px;
+    }
+  .about-h1 {
+     padding-top: 93px;
+     padding-bottom: 76px;
+    }
 /* portfolio */
 .portfolio-h1-h2{
   margin-left: 165px;
@@ -47,7 +57,6 @@ body {
   margin-left: 67px;
   width: 742px;
 }
-
 }
 
 @media screen and (max-width:375px){
