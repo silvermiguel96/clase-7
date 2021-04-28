@@ -4,49 +4,8 @@ body {
     box-sizing: border-box;
     font-family: "Libre Franklin", sans-serif;
   }
-
 @media screen and (min-width: 376px) and (max-width: 1440px) {
-/* portfolio */
-.portfolio-h1-h2{
-  margin-left: 165px;
-}
 
-.porfilio-h1{
-  padding-bottom: 72px;
-}
-
-.porfilio-p-img{
-  display: flex;
-}
-
-#puenteImg {
-  position: relative;
-  top: 44px;
-  height: 195px;
-  width: 284px;
-}
-
-#boteImg {
-  height: 152px;
-  width: 284px; 
-}
-
-#marImg {
-  height: 190px;
-  width: 283px;
-}
-
-#casaImg {
-  height: 142px;
-  width: 285px;
-}
-
-.portfolio-p {
-  margin-top: 65px;
-  margin-right: 139px;
-  margin-left: 67px;
-  width: 742px;
-}
 
 }
 
