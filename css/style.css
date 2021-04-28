@@ -4,239 +4,188 @@ body {
     box-sizing: border-box;
     font-family: "Libre Franklin", sans-serif;
   }
-  @media screen and (min-width: 376px) and (max-width: 1440px) {
 
-    .skills{
-      
-      padding: 93px 165px 145px 165px;
-      background-color: #FFFAF2;
-  
-    }
-    .skills-title h1{
-      font-size: 24px;
-    }
-  
-    .skills-title{
-      
-      padding-bottom: 86px;
-    }
-  
-    .skills-content{
-      
-      height: 340px;
-      display: flex;
-     
-    }
-    .skills-img{
-      margin-right: 125px;
-    }
-    .skills-img img{
-      width: 350px;
-      height: 340px;
-    }
-    
-    .skills-profile{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-  
-    .skills-profile h4, h5{
-      margin:0;
-    }
-    
-    .skills-profile:first-child{
-      margin-bottom: 65px;
-    }
-    .skills-profile{
-      margin-bottom: 20px;
-    }
-   
-  }
-  
-  @media screen and (max-width:375px){
-  
-  p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 16px;
-  }
-  
-  h1 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-  }
-  
-  h2 {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-  }
-  
-  a {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 16px;
-  }
-  
-  /* Seccion de portafolio */
-  
-  .portafolio {
-    width: 373px;
-    height: 275px;
-    background-image: url("../assets/img/bg.png");
-    background-color: rgba(198, 108, 73, 0.4);
-    /* Esta propiedas nos sirve para darle un color a la imagen  */
-    background-blend-mode: overlay;
-    color: white;
-  }
-  
-  .portafolio-h1 {
-    width: 100%;
-    height: 29px;
-    text-align: center;
-    padding: 36px 129px 0 0;
-  }
-  
-  .portafolio-h2 {
-    width: 100%;
-    height: 24px;
-    text-align: center;
-    padding: 40px 78px 0 0;
-  }
-  
-  .portafolio-p {
-    width: 100%;
-    height: 16px;
-    text-align: center;
-    padding: 6px 96px 0 0;
-  }
-  
-  .portafolio-a {
-    text-align: center;
-    display: block;
-    color: white;
-  }
-  
-  /* About */
-  
-  .about {
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+/* Seccion de portafolio */
+
+.portafolio {
+  width: 373px;
+  height: 275px;
+  background-image: url("../assets/img/bg.png");
+  background-color: rgba(198, 108, 73, 0.4);
+  /* Esta propiedas nos sirve para darle un color a la imagen  */
+  background-blend-mode: overlay;
+  color: white;
+}
+
+.portafolio-h1 {
+  width: 100%;
+  height: 29px;
+  text-align: center;
+  padding: 36px 129px 0 0;
+}
+
+.portafolio-h2 {
+  width: 100%;
+  height: 24px;
+  text-align: center;
+  padding: 40px 78px 0 0;
+}
+
+.portafolio-p {
+  width: 100%;
+  height: 16px;
+  text-align: center;
+  padding: 6px 96px 0 0;
+}
+
+.portafolio-a {
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+/* About */
+
+.about {
+  width: 375px;
+  text-align: center;
+}
+
+.about-h1 {
+  padding: 25px 0px 19px 0px;
+  font-weight: 600;
+}
+.about-p {
+  text-align: justify;
+  padding: 0 33px 18px 34px;
+  margin-bottom: 10px;
+}
+
+/* Skils */
+
+.skills {
+  padding-top: 1em;
+  background-color: #fffaf2;
+  width: 375px;
+}
+.skills-title {
+  text-align: center;
+}
+.skills-title-h1 {
+  margin: 0 1em 0.5em 1em;
+}
+.skills-img {
+  text-align: center;
+}
+
+.skills-experience{
+    padding: 26px 34px 25px 32px;
+}
+
+.skills-profile {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.skills-profile-img {
+    height: 19px;
+    width: 150px;
+}
+
+.skills-h4 {
+    margin: 0;
+}
+
+/* portfolio */
+
+
+.portfolio{
     width: 375px;
     text-align: center;
-  }
-  
-  .about-h1 {
-    padding: 25px 0px 19px 0px;
-    font-weight: 600;
-  }
-  .about-p {
+    padding-bottom: 23px;
+}
+
+.portfolio-p{
     text-align: justify;
-    padding: 0 33px 18px 34px;
-    margin-bottom: 10px;
+    padding: 20px 35px;
+}
+#puenteImg {
+    position: relative;
+    top: 44px;
   }
-  
-  /* Skils */
-  
-  .skills {
-    padding-top: 1em;
-    background-color: #fffaf2;
+
+/* Footer */
+
+footer {
     width: 375px;
+    height: 360px;
+    background-color: #fffaf2;
+    position: relative;
   }
-  .skills-title {
+  
+  .footer-title {
+    padding: 26px 0 25px 0;
+    width: 100%;
+  }
+  
+  .footer-title p {
+    margin: 0 auto;
     text-align: center;
-  }
-  .skills-title-h1 {
-    margin: 0 1em 0.5em 1em;
-  }
-  .skills-img {
-    text-align: center;
+    line-height: 29px;
+    color: #333333;
   }
   
-  .skills-experience{
-      padding: 26px 34px 25px 32px;
+  .footer-media {
+    padding-left: 42px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 19px;
   }
   
-  .skills-profile {
-      display: flex;
-      justify-content: space-between;
-      margin: 1em 0;
+  .footer-media a {
+    text-decoration: none;
+    color: #333333;
   }
   
-  .skills-profile-img {
-      height: 19px;
-      width: 150px;
+  .footer-contact {
+    font-weight: 400;
+    padding: 30px 0 0 42px;
+    color: #333333;
   }
   
-  .skills-h4 {
-      margin: 0;
-  }
-  
-  /* portfolio */
-  
-  
-  .portfolio{
-      width: 375px;
-      text-align: center;
-      padding-bottom: 23px;
-  }
-  
-  .portfolio-p{
-      text-align: justify;
-      padding: 20px 35px;
-  }
-  #puenteImg {
-      position: relative;
-      top: 44px;
-    }
-  
-  /* Footer */
-  
-  footer {
-      width: 375px;
-      height: 360px;
-      background-color: #fffaf2;
-      position: relative;
-    }
-    
-    .footer-title {
-      padding: 26px 0 25px 0;
-      width: 100%;
-    }
-    
-    .footer-title p {
-      margin: 0 auto;
-      text-align: center;
-      line-height: 29px;
-      color: #333333;
-    }
-    
-    .footer-media {
-      padding-left: 42px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-row-gap: 19px;
-    }
-    
-    .footer-media a {
-      text-decoration: none;
-      color: #333333;
-    }
-    
-    .footer-contact {
-      font-weight: 400;
-      padding: 30px 0 0 42px;
-      color: #333333;
-    }
-    
-    footer img {
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      top: 278px;
-      left: 319px;
-    }
+  footer img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 278px;
+    left: 319px;
   }
