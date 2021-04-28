@@ -6,10 +6,52 @@ body {
   }
 @media screen and (min-width: 376px) and (max-width: 1440px) {
 
+  .skills{
+    padding: 93px 165px 145px 165px;
+    background-color: #FFFAF2;
 
+  }
+  .skills-title h1{
+    font-size: 24px;
+  }
+
+ .skills-title{
+  padding-bottom: 86px;
+  }
+
+  .skills-content{
+    height: 340px;
+    display: flex;
+
+   }
+  .skills-img{
+    margin-right: 125px;
+  }
+  .skills-img img{
+    width: 350px;
+    height: 340px;
+  }
+  
+  .skills-profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .skills-profile h4, h5{
+    margin:0;
+  }
+  
+  .skills-profile:first-child{
+    margin-bottom: 65px;
+  }
+  .skills-profile{
+    margin-bottom: 20px;
+  }
+ 
 }
 
 @media screen and (max-width:375px){
+
 p {
   font-style: normal;
   font-weight: normal;
