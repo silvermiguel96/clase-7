@@ -41,7 +41,6 @@ body {
   width: 284px; 
 }
 
-<<<<<<< HEAD
   .skills{
     padding: 93px 165px 145px 165px;
     background-color: #FFFAF2;
@@ -84,7 +83,6 @@ body {
     margin-bottom: 20px;
   }
  
-=======
 #marImg {
   height: 190px;
   width: 283px;
@@ -101,7 +99,6 @@ body {
   margin-left: 67px;
   width: 742px;
 }
->>>>>>> developer
 }
 
 @media screen and (max-width:375px){
