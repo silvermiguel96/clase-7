@@ -4,8 +4,44 @@ body {
     box-sizing: border-box;
     font-family: "Libre Franklin", sans-serif;
   }
-@media screen and (min-width: 376px) and (max-width: 1440px) {
 
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+  .about {
+     text-align: justify;
+     padding-left: 166px;
+     padding-right: 167px;
+     padding-bottom: 115px;
+    }
+  .about-h1 {
+     padding-top: 93px;
+     padding-bottom: 76px;
+    }
+/* portfolio */
+.portfolio-h1-h2{
+  margin-left: 165px;
+}
+
+.porfilio-h1{
+  padding-bottom: 72px;
+}
+
+.porfilio-p-img{
+  display: flex;
+}
+
+#puenteImg {
+  position: relative;
+  top: 44px;
+  height: 195px;
+  width: 284px;
+}
+
+#boteImg {
+  height: 152px;
+  width: 284px; 
+}
+
+<<<<<<< HEAD
   .skills{
     padding: 93px 165px 145px 165px;
     background-color: #FFFAF2;
@@ -48,6 +84,24 @@ body {
     margin-bottom: 20px;
   }
  
+=======
+#marImg {
+  height: 190px;
+  width: 283px;
+}
+
+#casaImg {
+  height: 142px;
+  width: 285px;
+}
+
+.portfolio-p {
+  margin-top: 65px;
+  margin-right: 139px;
+  margin-left: 67px;
+  width: 742px;
+}
+>>>>>>> developer
 }
 
 @media screen and (max-width:375px){
