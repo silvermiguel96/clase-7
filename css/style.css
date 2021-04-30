@@ -63,6 +63,7 @@ body {
 
 .porfilio-p-img{
   display: flex;
+  padding-left: 94px;
 }
 
 #puenteImg {
@@ -78,47 +79,75 @@ body {
 }
 
   .skills{
-    padding: 93px 165px 145px 165px;
+    padding: 0px 165px 130px 165px; /* modificaciones para que la pagina no teng que deslizarse */
     background-color: #FFFAF2;
+}
 
-  }
-  .skills-title h1{
+.skills-title-h1 {
+    margin: 0px;
+    padding-top: 40px;
+} 
+
+.skills-title h1{
     font-size: 24px;
-  }
+    padding-bottom: 86px;
+}
 
- .skills-title{
-  padding-bottom: 86px;
-  }
-
-  .skills-content{
+.skills-content{
     height: 340px;
     display: flex;
+}
 
-   }
-  .skills-img{
+.skills-img{
     margin-right: 125px;
-  }
-  .skills-img img{
+   
+}
+
+.skills-img img{
     width: 350px;
-    height: 340px;
-  }
-  
-  .skills-profile{
+    height: 340px; 
+}
+
+.skills-profile{
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
+}
 
-  .skills-profile h4, h5{
+.skills-profile h4, h5{
     margin:0;
+}
+
+.skills-profile:first-child{
+    margin-bottom: 65px;
+}
+
+.skills-profile{
+    margin-bottom: 20px;
+}
+
+/* Diseño de barras */
+.barra{
+    width: 130%;
+    background: #F5D6AB;
   }
   
-  .skills-profile:first-child{
-    margin-bottom: 65px;
+  .barra-relleno-ux{
+    width: 90%;
+    height: 100%;
+    background:#C66C49;
   }
-  .skills-profile{
-    margin-bottom: 20px;
+  
+  .barra-relleno-ui{
+    width: 80%;
+    height: 100%;
+    background:#C66C49;
   }
- 
+
+  .barra-relleno-front{
+    width: 60%;
+    height: 100%;
+    background:#C66C49;
+  }
 #marImg {
   height: 190px;
   width: 283px;
@@ -135,6 +164,60 @@ body {
   margin-left: 67px;
   width: 742px;
 }
+
+/* Footer */
+
+footer {
+  padding-top: 30px;
+  height: 360px;
+  background-color: #fffaf2;
+  position: relative;
+}
+
+.footer-title {
+  font-size: 24px;
+  padding: 26px 0 25px 0;
+  width: 100%;
+}
+
+.footer-title p {
+  padding-left: 144px;
+  line-height: 29px;
+  color: #333333;
+}
+
+.footer-media {
+  padding-left: 144px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 19px;
+}
+
+.footer-media a {
+  text-decoration: none;
+  color: #333333;
+  width: 300px;
+}
+
+.footer-contact {
+  font-weight: 400;
+  padding: 0px 0 0 42px;
+  color: #333333;
+}
+
+footer img {
+  
+  width: 20px;
+  height: 20px;
+  padding-left: 500px;
+}
+
+.footer-contenido{
+    display: flex;
+}
+
+
+
 }
 
 @media screen and (max-width:375px){
@@ -172,7 +255,7 @@ a {
 .portafolio {
   width: 373px;
   height: 275px;
-  background-image: url("../assets/img/bg.png");
+  background-image: url("../assets/img/casas-grande.png");
   background-color: rgba(198, 108, 73, 0.4);
   /* Esta propiedas nos sirve para darle un color a la imagen  */
   background-blend-mode: overlay;
@@ -228,7 +311,7 @@ a {
 
 /* Skils */
 
-.skills {
+/* .skills {
   padding-top: 1em;
   background-color: #fffaf2;
   width: 375px;
@@ -260,6 +343,66 @@ a {
 
 .skills-h4 {
     margin: 0;
+} */
+.skills {
+  padding-top: 1em;
+  background-color: #fffaf2;
+  width: 375px;
+}
+
+  .skills-title {
+      text-align: center;
+  }
+
+      .skills-title-h1 {
+      margin: 0 1em 0.5em 1em;
+  }
+
+  .skills-img {
+      text-align: center;
+  }
+
+  .skills-experience{
+      padding: 26px 34px 25px 32px;
+  }
+
+  .skills-profile {
+      display: flex;
+      justify-content: space-between;
+      margin: 1em 0;
+  }
+
+      .skills-profile-img {
+      height: 19px;
+      width: 150px;
+  }
+
+  .skills-h4 {
+      margin: 0;
+  } 
+
+/* Diseño de barras */
+.barra{
+  width: 65%;
+  background: #F5D6AB;
+}
+
+.barra-relleno-ux{
+  width: 90%;
+  height: 100%;
+  background:#C66C49;
+}
+
+.barra-relleno-ui{
+  width: 80%;
+  height: 100%;
+  background:#C66C49;
+}
+
+.barra-relleno-front{
+  width: 60%;
+  height: 100%;
+  background:#C66C49;
 }
 
 /* portfolio */
@@ -326,19 +469,4 @@ footer {
     top: 278px;
     left: 319px;
   }
-}
-
-
-
-
-/* creamos una barra */
-
-.barra{
-  width: 100%;
-  background: chartreuse;
-}
-
-.barra-interna{
-  width: 50%;
-  background: darkblue;
 }
