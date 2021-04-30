@@ -4,7 +4,43 @@ body {
     box-sizing: border-box;
     font-family: "Libre Franklin", sans-serif;
   }
-
+  .portafolio {
+    height: -webkit-fill-available;
+    background-image: url("../assets/img/casas.png");
+    background-color: rgba(198, 108, 73, 0.4);
+    /* Esta propiedas nos sirve para darle un color a la imagen  */
+    background-blend-mode: overlay;
+    color: white;
+  }
+  .portafolio-h1 {
+    width: 100%;
+    height: 29px;
+    
+    padding: 93px  0px 0px 165px;
+  }
+  
+  .portafolio-h2 {
+    font-size: 64px;
+    width: 100%;
+    height: 24px;
+    padding: 120px 0px 0 165px;
+  }
+  
+  .portafolio-p {
+    width: 100%;
+    height: 16px;
+    font-size: 24px;
+    padding: 18px 96px 0 165px;
+  }
+  
+  .portafolio-a {
+    display: block;
+    font-size: 18px;
+    color: white;
+    padding: 100px 96px 0 165px;
+  }
+  
+  
 @media screen and (min-width: 376px) and (max-width: 1440px) {
   .about {
      text-align: justify;
@@ -151,6 +187,7 @@ a {
 }
 
 .portafolio-h2 {
+  font-size: 27px; /*agregamos tamaño de letra, para moivil */
   width: 100%;
   height: 24px;
   text-align: center;
@@ -158,16 +195,18 @@ a {
 }
 
 .portafolio-p {
+  font-size: 17px;  /*agregamos tamaño de letra, para moivil */
   width: 100%;
-  height: 16px;
+  height: 33px;
   text-align: center;
-  padding: 6px 96px 0 0;
+  padding: 0px;
 }
 
 .portafolio-a {
   text-align: center;
   display: block;
   color: white;
+  padding: 3px 0 0 0;
 }
 
 /* About */
@@ -287,4 +326,19 @@ footer {
     top: 278px;
     left: 319px;
   }
+}
+
+
+
+
+/* creamos una barra */
+
+.barra{
+  width: 100%;
+  background: chartreuse;
+}
+
+.barra-interna{
+  width: 50%;
+  background: darkblue;
 }
